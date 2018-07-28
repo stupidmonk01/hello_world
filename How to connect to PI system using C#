@@ -1,0 +1,8 @@
+using OSIsoft.AF;    
+using OSIsoft.AF.Asset;   
+
+PIsystem myPIsystem =myPIsystem ["bbmwtpi01'];
+AFdatabase myDB = myDBs ["QGCASSETPI"];
+AFelement MYelement = myDB.elements["BA04_WH121"];
+AFattribute MYattribute = MYelement.MYattributes["POLISHED ROD PUMP SPEED"];
+
